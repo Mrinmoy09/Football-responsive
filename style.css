@@ -120,15 +120,18 @@ button:hover {
 }
 
 footer {
-    width: 50%;
-    height: 213px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    padding: 0px;
     
-    padding: 0;
-    margin-top: 30px;
+    position: absolute;
+    width: 483.87px;
+    height: 213px;
+    
+    
+    margin: 0 475px 0 475px;
 }
 
 .footer-logo img {
@@ -209,19 +212,19 @@ a:hover {
         width: 50%;
         justify-content: center;
         align-items: center;
-        padding: 0 0px 0 100px;
+        margin: 0 62px;
+        padding: 0;
        
     }
 
-    footer img {
-        width: 50%;
-    }
-    .footer-logo {
-        padding: 0 30px 0 10px;
+   
+    .footer-logo img {
+        width: 100px;
+        
     }
 
     footer p {
-        display: inline;
+        display: flex;
     }
 }
 
